@@ -1,0 +1,114 @@
+/* Container principal (fundo da tela) - Reaproveitado */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f5fb; /* Cor de fundo suave */
+    font-family: sans-serif;
+}
+
+/* Card central (o formulário) - Reaproveitado */
+.login-card {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    width: 350px;
+    text-align: center;
+}
+
+/* Ícone - Reaproveitado */
+.icon {
+    background-color: #9358f2; /* Roxo do ícone */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Títulos - Reaproveitado */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Grupos de Formulário - Reaproveitado */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+/* Campos de Input - Reaproveitado */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f7f7f7; /* Fundo dos campos */
+}
+
+/* Estilo para o placeholder/texto de dica nos inputs - Reaproveitado */
+.input-field::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Botão Entrar (mesmo estilo do Cadastrar) - Reaproveitado */
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+/* Link para Cadastrar (mesmo estilo do Login) - Reaproveitado */
+.register-link-container {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-anchor {
+    color: #9358f2; /* Roxo do link */
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.register-anchor:hover {
+    text-decoration: underline;
+}

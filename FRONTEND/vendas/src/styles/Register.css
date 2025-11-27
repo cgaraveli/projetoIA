@@ -1,0 +1,114 @@
+/* Container principal (fundo da tela) */
+.account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f5fb; 
+    font-family: sans-serif;
+}
+
+/* Card central */
+.account-card {
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    width: 350px;
+    text-align: center;
+}
+
+/* Ícone */
+.icon {
+    background-color: #9358f2; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+/* Títulos */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Grupos de Formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.form-group label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+}
+
+/* Campos de Input */
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: #f7f7f7; 
+}
+
+/* Placeholder */
+.input-field::placeholder {
+    color: #999;
+    font-size: 14px;
+}
+
+/* Botão */
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+}
+
+/* Link Inferior */
+.link-container {
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.anchor-link {
+    color: #9358f2; 
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.anchor-link:hover {
+    text-decoration: underline;
+}
